@@ -4,13 +4,21 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Passenger Counter</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <h1>People entered</h1>
-    <h2 id="count-el">0</h2>
-    <button id="increment-btn" onclick="increment()">Increment</button>
-    <button id="save-btn" onclick="save()">Save</button>
-    <p id="save-el">Previous entries:</p>
+    <div class="counter-container">
+      <h1 id="count-el">0</h1>
+      <h2>People entered</h2>
+      <div class="increment-and-decrement-container">
+        <button id="decrement-btn" class="btn" onclick="decrement()">-</button>
+        <button id="increment-btn" class="btn" onclick="increment()">+</button>
+      </div>
+
+      <button id="save-btn" class="btn" onclick="save()">Save</button>
+      <p id="save-el">Previous entries:&nbsp;</p>
+    </div>
+
     <script src="script.js"></script>
   </body>
 </html>
