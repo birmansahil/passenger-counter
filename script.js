@@ -3,6 +3,11 @@ let saveEl = document.getElementById("save-el");
 let count = 0;
 
 function decrement() {
+    if (count <= 0) {
+        alert("Count can not be less than zero")
+        return;
+    }
+    
     count -= 1;
     countEl.textContent = count;
 }

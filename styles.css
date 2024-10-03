@@ -33,19 +33,19 @@ body {
 }
 
 h2 {
-    margin: 20px 0;
+    margin: 20px 0 10px 0;
 }
 
 .increment-and-decrement-container {
     width: 100%;
+    margin: 10px 0;
     display: flex;
     justify-content: space-between;
-    margin: 20px 0;
 }
 
 .btn {
     padding: 10px 20px;
-    font-size: 32px;
+    font-size: 24px;
     font-weight: bold;
     color: #fff;
     border: 0;
@@ -62,7 +62,7 @@ h2 {
 
 #save-btn {
     width: 100%;
-    margin: 20px 0;
+    margin: 10px 0;
     background-color: #7679e0;
 }
 
